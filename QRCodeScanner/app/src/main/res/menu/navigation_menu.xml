@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Home"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_scanned"
+            android:title="History"
+            tools:ignore="HardcodedText" />
+
+    </group>
+
+    <item android:title="Profile"
+        tools:ignore="HardcodedText">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_user"
+                    android:icon="@drawable/ic_profile"
+                    android:title="User Profile"
+                    tools:ignore="HardcodedText" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout"
+                    tools:ignore="HardcodedText" />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="System"
+        tools:ignore="HardcodedText">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_update"
+                    android:icon="@drawable/ic_update"
+                    android:title="Check Update"
+                    tools:ignore="HardcodedText" />
+
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+</menu>

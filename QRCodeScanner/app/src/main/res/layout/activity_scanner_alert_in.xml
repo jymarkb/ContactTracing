@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scanner.scanner_in">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageView
+            android:id="@+id/alert"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="-300dp"
+            android:src="@drawable/verified" />
+
+        <TextView
+            android:id="@+id/alertTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alert"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="320dp"
+            android:fontFamily="@font/rmedium"
+            android:gravity="center"
+            android:text="NEGATIVE FOR\nCOVID-19"
+            android:textAlignment="center"
+            android:textColor="@color/colorSuccess"
+            android:textSize="35sp"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/psbold"
+            android:padding="10dp"
+            android:text="Scan Again"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:backgroundTint="@color/colorBtnQR"
+            tools:ignore="HardcodedText" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

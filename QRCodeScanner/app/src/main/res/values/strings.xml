@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QR Code Scanner</string>
+    <string name="covid_19_libmanan_ncontact_tracing">COVID - 19 Libmanan Contact Tracing</string>
+    <string name="a_municipality_of_libmanan_contact_tracing_app">A Municipality of Libmanan Contact Tracing App \n Cooperation is the to fight the pandemic Covid-19</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="resend"><u>Re-send code</u></string>
+    <string name="haveAccount">Already have an account? <u> <b>Sign in </b></u></string>
+
+</resources>

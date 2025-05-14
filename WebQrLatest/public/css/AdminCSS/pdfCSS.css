@@ -1,0 +1,66 @@
+@font-face { 
+    font-family: Nunito-Regular; 
+    src: url('/fonts/Nunito-Regular.ttf');
+}
+
+.generate_info td, .generate_info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.generate_info th {
+    text-align: left;
+    background-color:#343A40;
+    font-family: 'Nunito-Regular';
+    color: white;
+    font-size:12px;
+}
+
+.generate_info tbody tr td{
+    font-family: 'Nunito-Regular';
+    font-size:12px;
+}
+
+
+.generate_info tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+*{
+    font-family: 'Nunito-Regular';
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    margin: 0.5rem;
+}
+
+p{
+    font-size:12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#generate_info td, #generate_info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#generate_info th {
+    text-align: left;
+    background-color:#343A40;
+    font-family: 'Nunito-Regular';
+    color: white;
+    font-size:12px;
+}
+
+#generate_info tbody tr td{
+    font-family: 'Nunito-Regular';
+    font-size:12px;
+}
+
+
+#generate_info tr:nth-child(odd){
+    background-color: #f2f2f2;
+}

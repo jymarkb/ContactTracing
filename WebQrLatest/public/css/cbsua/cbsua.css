@@ -1,0 +1,297 @@
+.bg-new-nav{
+    background-color: #174e11!important;
+}
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('../../images/cbsua/school.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+@media (max-width: 400px) {  
+    #row-welcome{
+        margin-top: 10rem;
+    }
+    .info-welcome{
+        font-size: 1rem;
+    }
+    .btn-welcome{
+        font-size: 1.4rem;
+    }
+    #titleTop{
+        font-size: 150%;
+    }
+    .titleForm h4{
+        font-size: 100%;
+    }
+    .lblAgree{
+        font-size: 85%;
+    }
+
+}
+@media (min-width: 401px ) and (max-width:576px) { 
+    #row-welcome{
+        margin-top: 12rem;
+    }
+    .heading-welcome{
+        font-size: 2.6rem;
+    }
+    .info-welcome{
+        font-size: 1rem;
+    }
+    .btn-welcome{
+        font-size: 1.4rem;
+        background-color: #174e11;
+        border: #174e11;
+    }
+    #titleTop{
+        font-size: 200%;
+    }
+    .titleForm h4{
+        font-size: 110%;
+    }
+    .lblAgree{
+        font-size: 95%;
+    }
+    
+}
+@media (min-width: 577px ) and (max-width:768px) { 
+    #row-welcome{
+        margin-top: 15rem;
+    }
+    .heading-welcome{
+        font-size: 3.8rem;
+    }
+    .info-welcome{
+        font-size: 1.1rem;
+    }
+    .btn-welcome{
+        font-size: 1.4rem;
+    }
+    #titleTop{
+        font-size: 250%;
+    }
+    .titleForm h4{
+        font-size: 120%;
+    }
+}
+@media (min-width: 769px ) and (max-width:992px) {  
+    #row-welcome{
+        margin-top: 18rem;
+    }
+    .heading-welcome{
+        font-size: 5rem;
+    }
+    .info-welcome{
+        font-size: 1.3rem;
+    }
+    .btn-welcome{
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 993px ) {  
+    #row-welcome{
+        margin-top: 18rem;
+    }
+    .heading-welcome{
+        font-size: 5.4rem;
+    }
+    .info-welcome{
+        font-size: 1.5rem;
+    }
+    .btn-welcome{
+        font-size: 1.8rem;
+    }
+}
+.btn-welcome{
+    background-color: #174e11;
+    border: #174e11;
+}
+.btn-welcome:hover{
+    background-color: #319026;
+}
+#eluaText{
+    resize: none;
+}
+
+.form-group{
+    position:relative;
+}
+.form-control{
+    height: 40px;
+}
+.form-control:focus{
+    box-shadow:none;
+}
+label{
+    position:absolute; 
+    left:10px; top:10px; 
+    transition:all 0.3s; 
+    color:#404042; 
+    font-weight:700;
+}
+.form-control:focus ~ label{
+    left:5px; 
+    top: -12px; 
+    background:#fff; 
+    padding:0 5px;
+    color:#0A4C91; 
+}
+label.active{
+    left:5px; 
+    top: -12px; 
+    background-color: #fff;
+    padding:0 5px; 
+}
+.form-columns{
+    padding: 5%;
+    border-radius: 6px;
+    border: 1px solid rgba(70,86,117,0.15);
+    box-shadow: 0px 4px 35px 0px rgba(70,86,117,0.15);
+}
+.form-columns form{
+    margin-top: 0px;
+}
+input.form-control::placeholder{
+    opacity: 0;
+}
+input.form-control:focus::placeholder{
+    opacity: 1;
+}
+
+.form-group label::after{
+    content:  ' *';
+    color: red;
+}
+
+.checkRequired::after{
+    content:  '*';
+    color: red;
+}
+
+
+.form-group label.details-reg::after{
+    content: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+.verify-form::placeholder{
+    opacity: 1 !important;
+}
+
+#zone_div_select_current.hidden{
+    display: none;
+}
+
+#zone_div_select_current.show{
+    display: block;
+}
+
+#zone_div_field_current.hidden{
+    display: none;
+}
+
+#zone_div_field_current.show{
+    display: block;
+}
+
+#zone_div_select.hidden{
+    display: none;
+}
+
+#zone_div_select.show{
+    display: block;
+}
+
+#zone_div_field.hidden{
+    display: none;
+}
+
+#zone_div_field.show{
+    display: block;
+}
+
+#required{
+    color:red; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#required.hidden{
+    display: none;
+}
+
+#required.show{
+    display: block;
+}
+
+.about-header::after{
+    content:"";
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+    width: 20%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 3px solid #174e11;
+}
+
+.about-title{
+    color: #174e11;
+}
+
+.about-sub{
+    color: #174e11;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+
+
+
+.about-sub::after{
+    content:"";
+    display: inline-block;
+    height: 13px;
+    vertical-align: bottom;
+    width: 10%;
+    margin-left: 5px;
+    border-top: 2px solid #174e11;
+}
+
+.about-sub::before{
+    content:"";
+    display: inline-block;
+    height: 13px;
+    vertical-align: bottom;
+    width: 10%;
+    margin-right: 5px;
+    border-top: 2px solid #174e11;
+}
+
+.form-control.is-invalid + .select2 .select2-selection{
+    border-color: #dc3545!important;
+}
+.form-control.is-valid + .select2 .select2-selection{
+    border-color: #28a745!important;
+}
+*:focus{
+  outline:0px;
+}
+
+

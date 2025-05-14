@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A202E</color>
+    <color name="colorPrimaryDark">#1A202E</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorBg">#F7F7F7</color>
+    <color name="colorBlack">#121111</color>
+    <color name="colorGrey">#E3E3E4</color>
+    <color name="colorSplashTitle">#50658e</color>
+    <color name="colorSplashDesc">#f86168</color>
+
+    <color name="colorText">#1A202E</color>
+    <color name="colorRegisterTitle">#1B47A1</color>
+    <color name="colorSuccess">#38c172</color>
+    <color name="colorNavigationBG">#F1F5F9</color>
+    <color name="colorBtnQR">#4170FF</color>
+    <color name="colorBGprofile">#171937</color>
+
+</resources>

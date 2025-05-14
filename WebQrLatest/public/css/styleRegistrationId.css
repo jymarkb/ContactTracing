@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.form-id-columns{
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(70,86,117,0.15);
+    box-shadow: 0px 4px 35px 0px rgba(70,86,117,0.15);
+}
+/* 
+.idrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+
+
+.idrow .col-xl-5{
+
+    flex: 0 0 41.6666666667%;
+    max-width: 418px;
+      
+}
+
+.idrow .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 418px;
+}
+
+.idrow .col-md-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 418px;
+}
+
+.idrow  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 418px;
+}
+
+.idrow .col-12 {
+    flex: 0 0 418px;
+    max-width: 418px;
+}
+
+.idrow .details-xl-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.idrow .col-xl-details {
+    /* flex: 0 0 calc(50%-418px);
+    max-width: calc(50%-418px); */
+    flex: 0 0 calc(max(100% - 418px));
+    max-width: calc(max(100% - 418px));
+}
+
+@media (min-width: 401px ) and (max-width:576px) { 
+    .id-row .col-sm-details{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }  
+
+}
+
+
+
+.id-format{
+    width: 384px;
+    height: auto;
+}
+
+.card-id{
+    border: none;
+}
+
+.card-id img{
+    border-radius: 0rem;
+}
+
+.id-profile{
+    margin-top: 85px;
+    margin-left: -20px;
+    /* border: 1px solid black; */
+}
+
+.id-details-row{
+    font-family: 'Roboto', sans-serif !important;
+    margin-top: 81px;
+    margin-bottom: 0px;
+}
+
+.id-details-row dd{
+    text-transform: capitalize;
+    padding-right: 0px;
+    margin-bottom: 0.2rem;
+    font-weight: 300;
+}
+.qr-code-row{
+    margin-top: -20px;
+    
+}
+.qr-profile{
+    margin-left: -15px;
+}
+  
+
+.hide-scrollbar {
+	overflow: -moz-hidden-unscrollable;
+	overflow: hidden;
+}
+
+

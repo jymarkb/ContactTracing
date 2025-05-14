@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qrcodescanner">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin.user_history"></activity>
+        <activity android:name=".Scanner.scanner_alert_out"></activity>
+        <activity android:name=".Scanner.scanner_alert_in"></activity>
+        <activity android:name=".Scanner.scanner_temperature"></activity>
+        <activity android:name=".Scanner.scanner_in" />
+        <activity android:name=".Scanner.scanner_out" />
+        <activity android:name=".admin.user_profile" />
+        <activity android:name=".Common.signup.signup_fourth_form" />
+        <activity
+            android:name=".Common.signup.signup_third_form"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Common.signup.signup_second_form"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Common.signup.signup_first_form"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Common.login.login_verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Common.login.login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Common.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
